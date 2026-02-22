@@ -1,0 +1,45 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+locale: fr
+
+collections:
+  - name: "blog"
+    label: "Articles"
+    folder: "src/content/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Titre", name: "title", widget: "string" }
+      - { label: "Description courte", name: "description", widget: "text" }
+      - { label: "Date de publication", name: "pubDate", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false }
+      - label: "Catégorie"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "Location courte durée", value: "location-courte-duree" }
+          - { label: "Fiscalité & chiffres", value: "fiscalite-et-chiffres" }
+          - { label: "Gestion locative", value: "gestion-locative" }
+          - { label: "Outils & méthodes", value: "outils-et-methodes" }
+          - { label: "Réglementation", value: "reglementation" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Image principale (URL)", name: "image", widget: "string", required: false, hint: "URL de l'image depuis Supabase ou autre hébergeur" }
+      - { label: "Texte alternatif image", name: "imageAlt", widget: "string", required: false }
+      - { label: "Meta title (SEO)", name: "metaTitle", widget: "string", required: false, hint: "Laisse vide pour utiliser le titre" }
+      - { label: "Meta description (SEO)", name: "metaDescription", widget: "text", required: false, hint: "160 caractères max" }
+      - { label: "Badge Nouveau", name: "isNew", widget: "boolean", default: false }
+      - { label: "URL vidéo YouTube (embed)", name: "youtubeUrl", widget: "string", required: false, hint: "Ex: https://www.youtube.com/embed/XXXXX" }
+      - label: "CTA personnalisé"
+        name: "cta"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Texte du bouton", name: "label", widget: "string" }
+          - { label: "URL du bouton", name: "url", widget: "string" }
+      - { label: "Auteur", name: "author", widget: "string", default: "Équipe Zently" }
+      - { label: "Temps de lecture (minutes)", name: "readingTime", widget: "number", required: false }
+      - { label: "Contenu", name: "body", widget: "markdown" }
