@@ -1,17 +1,105 @@
 ---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import { SITE, CATEGORIES } from '../config';
 
+const allPosts = await getCollection('blog');
+const sortedPosts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const readingTime = (content: string) => {
+  const words = content.split(' ').length;
+  return Math.ceil(words / 200);
+};
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout title={SITE.name} description={SITE.description}>
+
+  <!-- Hero -->
+  <section style="background: var(--bg-soft); padding: 3rem 0 2rem; border-bottom: 1px solid var(--border);">
+    <div class="container">
+      <p style="font-family: var(--font-display); font-size: 0.85rem; color: var(--accent); font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.75rem;">Blog Zently</p>
+      <h1 style="font-size: clamp(1.75rem, 4vw, 2.5rem); color: var(--primary); max-width: 640px; margin-bottom: 1rem;">
+        Ressources factuelles pour propriétaires de location meublée
+      </h1>
+      <p style="color: var(--text-muted); font-size: 1.05rem; max-width: 560px;">
+        Pas de jargon, pas d'opinion. Fiscalité, gestion, réglementation, optimisation — juste ce que tu dois savoir.
+      </p>
+    </div>
+  </section>
+
+  <!-- Filtres catégories -->
+  <section style="padding: 1.5rem 0; border-bottom: 1px solid var(--border); background: #fff; position: sticky; top: 65px; z-index: 50;">
+    <div class="container" style="display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center;">
+      <a href="/" class="badge badge-category" style="text-decoration: none; background: var(--primary); color: #fff;">Tous</a>
+      {CATEGORIES.map(cat => (
+        <a href={`/category/${cat.slug}`} class="badge badge-category" style="text-decoration: none;">
+          {cat.label}
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Liste articles -->
+  <section style="padding: 3rem 0;">
+    <div class="container">
+      {sortedPosts.length === 0 ? (
+        <p style="color: var(--text-muted); text-align: center; padding: 3rem 0;">Aucun article publié pour le moment.</p>
+      ) : (
+        <div style="display: grid; gap: 2rem; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));">
+          {sortedPosts.map((post) => (
+            <article style="border: 1px solid var(--border); border-radius: 8px; overflow: hidden; background: #fff; transition: box-shadow 0.2s;" onmouseenter="this.style.boxShadow='0 4px 20px rgba(0,0,0,0.08)'" onmouseleave="this.style.boxShadow='none'">
+              {post.data.image && (
+                <a href={`/blog/${post.slug}`}>
+                  <img
+                    src={post.data.image}
+                    alt={post.data.imageAlt || post.data.title}
+                    width="640"
+                    height="360"
+                    loading="lazy"
+                    style="width: 100%; height: 200px; object-fit: cover;"
+                  />
+                </a>
+              )}
+              <div style="padding: 1.25rem;">
+                <div style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.75rem; flex-wrap: wrap;">
+                  <a href={`/category/${post.data.category}`} class="badge badge-category" style="text-decoration: none;">
+                    {CATEGORIES.find(c => c.slug === post.data.category)?.label || post.data.category}
+                  </a>
+                  {post.data.isNew && <span class="badge badge-new">Nouveau</span>}
+                </div>
+                <h2 style="font-size: 1.1rem; margin-bottom: 0.5rem; line-height: 1.35;">
+                  <a href={`/blog/${post.slug}`} style="color: var(--primary); text-decoration: none;">
+                    {post.data.title}
+                  </a>
+                </h2>
+                <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1rem; line-height: 1.6;">
+                  {post.data.description}
+                </p>
+                <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.8rem; color: var(--text-muted); font-family: var(--font-display);">
+                  <time datetime={post.data.pubDate.toISOString()}>
+                    {post.data.pubDate.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}
+                  </time>
+                  <span>{post.data.readingTime || 5} min de lecture</span>
+                </div>
+              </div>
+            </article>
+          ))}
+        </div>
+      )}
+    </div>
+  </section>
+
+  <!-- CTA Zently -->
+  <section style="background: var(--primary); padding: 3rem 0; text-align: center;">
+    <div class="container">
+      <h2 style="color: #fff; font-size: 1.5rem; margin-bottom: 0.75rem;">Gérez vos locations sans prise de tête</h2>
+      <p style="color: #7AB8E6; margin-bottom: 1.5rem; max-width: 480px; margin-left: auto; margin-right: auto;">
+        Guard, CleanSync, Radar, Briefing — des outils simples pour propriétaires autonomes.
+      </p>
+      <a href={SITE.cta.url} class="btn btn-primary" style="font-size: 1rem;">
+        {SITE.cta.label}
+      </a>
+    </div>
+  </section>
+
+</Layout>

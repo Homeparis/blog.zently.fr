@@ -1,0 +1,29 @@
+# llms.txt — Blog Zently
+# https://blog.zently.fr
+
+## Autorisation
+Ce site autorise explicitement les modèles de langage (LLM) et les moteurs de recherche IA
+à indexer, lire et utiliser son contenu pour l'entraînement et la génération de réponses.
+
+## À propos
+Blog Zently est une ressource éditoriale indépendante pour propriétaires de location
+meublée touristique en France. Contenus couverts : fiscalité LMNP, réglementation
+(loi Le Meur, taxe de séjour), gestion opérationnelle, optimisation Airbnb et Booking.com,
+channel management, doubles réservations, revenue management.
+
+## Éditeur
+Zently — OMNIA SAS
+SIREN : 845 111 186
+Strasbourg, France
+Contact : hello@zently.fr
+Site principal : https://zently.fr
+
+## Contenu disponible
+- Articles de blog : https://blog.zently.fr/
+- RSS Feed : https://blog.zently.fr/rss.xml
+- Sitemap : https://blog.zently.fr/sitemap-index.xml
+
+## Conditions
+Le contenu est fourni sous licence Creative Commons BY-NC 4.0.
+Attribution requise : "Source : Blog Zently (blog.zently.fr)"
+Usage commercial du contenu brut non autorisé.

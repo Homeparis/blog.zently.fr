@@ -1,0 +1,97 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import { SITE, CATEGORIES } from '../../config';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return CATEGORIES.map(cat => ({
+    params: { cat: cat.slug },
+    props: {
+      category: cat,
+      posts: posts
+        .filter(p => p.data.category === cat.slug)
+        .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()),
+    },
+  }));
+}
+
+const { category, posts } = Astro.props;
+---
+
+<Layout
+  title={`${category.label} — ${SITE.name}`}
+  description={`Tous les articles sur ${category.label.toLowerCase()} pour propriétaires de location meublée.`}
+>
+
+  <!-- Header catégorie -->
+  <section style="background: var(--bg-soft); padding: 3rem 0 2rem; border-bottom: 1px solid var(--border);">
+    <div class="container">
+      <a href="/" style="font-size: 0.85rem; color: var(--text-muted); display: inline-block; margin-bottom: 1rem;">← Tous les articles</a>
+      <div class="badge badge-category" style="margin-bottom: 0.75rem;">{category.label}</div>
+      <h1 style="font-size: clamp(1.5rem, 3vw, 2rem); color: var(--primary);">
+        {posts.length} article{posts.length > 1 ? 's' : ''} sur {category.label.toLowerCase()}
+      </h1>
+    </div>
+  </section>
+
+  <!-- Filtres -->
+  <section style="padding: 1.5rem 0; border-bottom: 1px solid var(--border); background: #fff; position: sticky; top: 65px; z-index: 50;">
+    <div class="container" style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+      <a href="/" class="badge badge-category" style="text-decoration: none;">Tous</a>
+      {CATEGORIES.map(cat => (
+        <a
+          href={`/category/${cat.slug}`}
+          class="badge badge-category"
+          style={`text-decoration: none; ${cat.slug === category.slug ? 'background: var(--primary); color: #fff;' : ''}`}
+        >
+          {cat.label}
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Articles -->
+  <section style="padding: 3rem 0;">
+    <div class="container">
+      {posts.length === 0 ? (
+        <p style="color: var(--text-muted); text-align: center; padding: 3rem 0;">Aucun article dans cette catégorie pour le moment.</p>
+      ) : (
+        <div style="display: grid; gap: 2rem; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));">
+          {posts.map(post => (
+            <article style="border: 1px solid var(--border); border-radius: 8px; overflow: hidden; background: #fff;">
+              {post.data.image && (
+                <a href={`/blog/${post.slug}`}>
+                  <img
+                    src={post.data.image}
+                    alt={post.data.imageAlt || post.data.title}
+                    width="640"
+                    height="360"
+                    loading="lazy"
+                    style="width: 100%; height: 200px; object-fit: cover;"
+                  />
+                </a>
+              )}
+              <div style="padding: 1.25rem;">
+                {post.data.isNew && <span class="badge badge-new" style="margin-bottom: 0.75rem; display: inline-block;">Nouveau</span>}
+                <h2 style="font-size: 1.1rem; margin-bottom: 0.5rem;">
+                  <a href={`/blog/${post.slug}`} style="color: var(--primary); text-decoration: none;">
+                    {post.data.title}
+                  </a>
+                </h2>
+                <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1rem;">{post.data.description}</p>
+                <div style="display: flex; justify-content: space-between; font-size: 0.8rem; color: var(--text-muted); font-family: var(--font-display);">
+                  <time datetime={post.data.pubDate.toISOString()}>
+                    {post.data.pubDate.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}
+                  </time>
+                  <span>{post.data.readingTime || 5} min</span>
+                </div>
+              </div>
+            </article>
+          ))}
+        </div>
+      )}
+    </div>
+  </section>
+
+</Layout>
