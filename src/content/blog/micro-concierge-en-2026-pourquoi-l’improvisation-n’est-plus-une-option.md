@@ -13,8 +13,8 @@ category: location-courte-duree
 tags:
   - MicroConciergerie
 image: https://zlodaitzgajllkzknnef.supabase.co/storage/v1/object/public/images/uploads/1769705754459-txc47.jpg
-imageAlt: "Maison Sur une table "
-metaTitle: "Zently : micro conceirgei, logiciel pour la location saisonnière"
+imageAlt: Maison Sur une table "Claude t'es un boss"
+metaTitle: "Zently : micro conceirgerie, logiciel pour la location saisonnière"
 metaDescription: >-
   Micro-concierge en 2026 : pourquoi l’improvisation n’est plus une option
 
@@ -24,7 +24,7 @@ metaDescription: >-
   Mais en 2026, le contexte a changé. Le marché de la conciergerie courte durée est devenu plus dense, plus concurrentiel et plus exigeant. Ce qui fonctionnait au ressenti ne suffit plus.
 isNew: true
 cta:
-  label: L'enssemble à prix réduit
+  label: Test
   url: https://zently.fr/
 author: Pierre de Zently
 readingTime: 6
