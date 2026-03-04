@@ -15,19 +15,18 @@ image: https://zlodaitzgajllkzknnef.supabase.co/storage/v1/object/public/images/
 imageAlt: "Double réservation Airbnb Booking.com : conflit de calendrier sur les
   mêmes dates - description de Zently Guard pour vous alerter en cas de double
   booking"
-metaTitle: "Double Réservation Airbnb Booking : Éviter Les Pénalités 280-3000€"
-metaDescription: >
-  25 % des hôtes subissent un double booking dès leur première année. Pénalités,
-  perte Superhost, review 1 étoile : découvrez le coût réel et les seules
-  solutions qui fonctionnent vraiment.
+metaTitle: "Double réservation Airbnb Booking.com : coût réel et comment l'éviter en 2026"
+metaDescription: "25% des hôtes subissent une double réservation la 1ère année.
+  Coût réel : 280€ à 3000€. Pourquoi iCal ne suffit pas et comment s'en protéger
+  gratuitement. Pénalités, perte Superhost : découvrez le coût réel et les
+  seules solutions qui fonctionnent vraiment."
 isNew: true
 cta:
   label: "Zently Guard vous alerte en cas de double Booking "
   url: https://zently.fr/guard
 author: Pierre Debrioulle - Zently
-readingTime: 5
+readingTime: 8
 ---
-
 <h1>Double Réservation Airbnb Booking</h1>
 
 <p>
@@ -141,6 +140,32 @@ readingTime: 5
   Booking.com est encore plus strict. Sa clause 2.5.1 des Conditions Générales Partenaires impose à l'hébergement de reloger le client dans un établissement de qualité équivalente ou supérieure, sans frais pour le voyageur. Les délais imposés : 30 minutes si le check-in est dans moins de 24h, 2 heures entre 24h et 7 jours avant, 24 heures au-delà. Si vous ne trouvez pas de solution dans ces délais, Booking.com s'en charge — et vous facture le relogement, le transport du voyageur, les frais administratifs, <strong>et la commission sur la réservation initiale même annulée</strong>.
 </p>
 
+<h2>Que faire en cas de double réservation Booking.com ?</h2>
+
+<p>
+
+  La double réservation Booking.com est la plus redoutée car la plateforme est la plus stricte sur les obligations de relogement. Si vous vous retrouvez dans cette situation, voici la procédure dans l'ordre.
+
+</p>
+
+<p>
+
+  <strong>Dans les 30 premières minutes :</strong> contactez immédiatement le voyageur via la messagerie Booking.com et proposez-lui un relogement. Ne l'attendez pas à la porte sans solution. Cherchez en parallèle un hébergement équivalent dans un rayon de 2 km — utilisez Booking.com lui-même pour trouver une disponibilité last-minute.
+
+</p>
+
+<p>
+
+  <strong>Ce que Booking.com impose (clause 2.5.1) :</strong> qualité équivalente ou supérieure, même secteur géographique, sans frais pour le voyageur. Si vous ne trouvez pas dans les délais, Booking prend la main — et vous facture le relogement, le transport <em>et</em> la commission de la réservation annulée.
+
+</p>
+
+<p>
+
+  <strong>Après la résolution :</strong> signalez le double booking à l'équipe partenaires Booking.com via l'extranet, rubrique "Aide et contact". Une déclaration proactive réduit légèrement le risque de sanction sur votre visibilité — et crée une trace en cas de contestation ultérieure.
+
+</p>
+
 <h3>Les coûts cachés (souvent pires que les pénalités)</h3>
 
 <p>
@@ -221,4 +246,4 @@ readingTime: 5
   <em>Pierre Debrioulle est entrepreneur depuis 2008, fondateur de CityCosy (location meublée de tourisme à Paris et Strasbourg) et de Zently, outil de pilotage pour propriétaires et petites conciergeries. Gestionnaire de locations saisonnières depuis 16 ans, il partage ici son expérience terrain sur les risques concrets de la gestion multi-plateformes.</em><br>
   🔗 <a href="https://www.linkedin.com/in/pierre-debrioulle-62a4a6b1">LinkedIn</a>
 </p>
-\`\``
+\\`\\``
