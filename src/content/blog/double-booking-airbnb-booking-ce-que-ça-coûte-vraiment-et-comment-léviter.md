@@ -172,6 +172,32 @@ readingTime: 8
   La perte du statut Superhost est immédiate dès la première annulation pour double booking : 12 mois minimum pour le récupérer, et selon AirDNA (2024), cela représente en moyenne −20 % de réservations et −15 % sur le tarif moyen. Pour un bien générant 15 000€/an, c'est 3 000€ manqués. S'y ajoutent une review 1 étoile quasi systématique — visible pendant des années — et une chute du ranking algorithmique de −30 % de visibilité pendant 3 à 6 mois. Sans compter le stress, les appels d'urgence et le temps perdu à gérer la crise.
 </p>
 
+<h2>Que faire en cas de double réservation Booking.com ?</h2>
+
+<p>
+
+  La double réservation Booking.com est la plus redoutée car la plateforme est la plus stricte sur les obligations de relogement. Si vous vous retrouvez dans cette situation, voici la procédure dans l'ordre.
+
+</p>
+
+<p>
+
+  <strong>Dans les 30 premières minutes :</strong> contactez immédiatement le voyageur via la messagerie Booking.com et proposez-lui un relogement. Ne l'attendez pas à la porte sans solution. Cherchez en parallèle un hébergement équivalent dans un rayon de 2 km — utilisez Booking.com lui-même pour trouver une disponibilité last-minute.
+
+</p>
+
+<p>
+
+  <strong>Ce que Booking.com impose (clause 2.5.1) :</strong> qualité équivalente ou supérieure, même secteur géographique, sans frais pour le voyageur. Si vous ne trouvez pas dans les délais, Booking prend la main — et vous facture le relogement, le transport <em>et</em> la commission de la réservation annulée.
+
+</p>
+
+<p>
+
+  <strong>Après la résolution :</strong> signalez le double booking à l'équipe partenaires Booking.com via l'extranet, rubrique "Aide et contact". Une déclaration proactive réduit légèrement le risque de sanction sur votre visibilité — et crée une trace en cas de contestation ultérieure.
+
+</p>
+
 <h2>Les 3 solutions — et pourquoi 2 ne marchent pas</h2>
 
 <h3>Le blocage manuel 24h/24 : inefficace</h3>
@@ -246,4 +272,4 @@ readingTime: 8
   <em>Pierre Debrioulle est entrepreneur depuis 2008, fondateur de CityCosy (location meublée de tourisme à Paris et Strasbourg) et de Zently, outil de pilotage pour propriétaires et petites conciergeries. Gestionnaire de locations saisonnières depuis 16 ans, il partage ici son expérience terrain sur les risques concrets de la gestion multi-plateformes.</em><br>
   🔗 <a href="https://www.linkedin.com/in/pierre-debrioulle-62a4a6b1">LinkedIn</a>
 </p>
-\\`\\``
+\\\`\\\``
