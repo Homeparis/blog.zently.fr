@@ -6,7 +6,7 @@ description: >
   abattement, sans régime réel possible. Seuils, déclaration, classement, règle
   des 120 nuits — le guide complet pour ne pas se faire surprendre.
 pubDate: 2026-02-15
-category: reglementation
+category: fiscalite-et-chiffres
 tags:
   - fiscalité Airbnb 2026
   - micro-BIC résidence principale
