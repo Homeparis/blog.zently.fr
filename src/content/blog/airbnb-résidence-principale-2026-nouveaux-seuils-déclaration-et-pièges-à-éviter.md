@@ -1,6 +1,5 @@
 ---
-title: "Airbnb résidence principale 2026 : nouveaux seuils, déclaration et
-  pièges à éviter"
+title: "Airbnb résidence principale 2026 : seuil 15 000€, pièges et calcul d'impôt"
 description: >
   La loi Le Meur 2026 fait chuter le plafond micro-BIC à 15 000€ pour les
   meublés non classés. Au-delà : imposition sur 100 % des recettes, sans
@@ -16,7 +15,8 @@ imageAlt: Déclaration fiscale revenus Airbnb résidence principale 2026 — seu
   micro-BIC loi Le Meur
 metaTitle: "Imposition Airbnb Résidence Principale 2026 : Seuils Et Déclaration"
 metaDescription: >
-  Plafond micro-BIC abaissé à 15 000€, abattement réduit à 30%, règle des 120
+  Micro-BIC abaissé à 15 000€, abattement à 30%, Airbnb transmet tout au fisc.
+  Calcul concret, pièges à éviter et levier classement expliqués, règle des 120
   nuits toutes plateformes : ce que la loi Le Meur 2026 change vraiment pour les
   propriétaires qui louent leur résidence principale sur Airbnb ou Booking.
 isNew: true
@@ -26,8 +26,10 @@ cta:
 author: Équipe Zently
 readingTime: 10
 ---
+<h1>
+Airbnb résidence principale 2026 : le seuil passe à 15 000€ — ce que ça coûte vraiment
 
-<h1>Imposition Airbnb Résidence Principale 2026</h1>
+</h1>
 
 <p>
   La loi Le Meur (n°2024-1039 du 19 novembre 2024) transforme radicalement la fiscalité des locations Airbnb en résidence principale dès 2026. Le plafond du régime micro-BIC pour les meublés de tourisme non classés chute de 77 700€ à <strong>15 000€</strong>. Si vous louez votre logement quelques semaines par an sur Airbnb ou Booking.com, votre régime fiscal a changé — et votre stratégie doit s'adapter avant le début de l'exercice.
