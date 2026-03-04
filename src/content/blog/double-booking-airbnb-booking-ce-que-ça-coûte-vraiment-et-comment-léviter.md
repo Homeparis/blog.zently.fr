@@ -7,7 +7,7 @@ description: >
   coût complet d'un double booking et pourquoi ni le blocage manuel ni les
   channel managers ne sont la bonne réponse pour 1 à 2 biens.
 pubDate: 2026-02-20
-category: gestion-locative
+category: fiscalite-et-chiffres
 tags:
   - double booking
   - synchronisation calendrier Airbnb Booking
