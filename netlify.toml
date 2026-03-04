@@ -1,0 +1,8 @@
+[[plugins]]
+package = "@netlify/plugin-sitemap"
+
+  [plugins.inputs]
+  buildDir = "dist"
+  baseUrl = "https://blog.zently.fr"
+  changeFreq = "weekly"
+  priority = 0.5
