@@ -17,6 +17,7 @@ metaDescription: L'API Meublés surveille vos nuitées, votre numéro
   d'enregistrement et votre DPE dès mai 2026. Ce que les plateformes
   transmettent à votre mairie — et comment rester conforme sans stress.
 isNew: true
+youtubeUrl: https://zlodaitzgajllkzknnef.supabase.co/storage/v1/object/public/videos/uploads/1769772082561-lbvwpei.mp4
 cta:
   label: "Essayer Zently "
   url: https://zently.fr/
