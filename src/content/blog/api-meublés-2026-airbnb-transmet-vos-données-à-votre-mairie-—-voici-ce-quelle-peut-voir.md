@@ -11,6 +11,7 @@ pubDate: 2026-03-23
 category: reglementation
 tags:
   - API Meublés — réglementation location saisonnière 2026
+image: https://zlodaitzgajllkzknnef.supabase.co/storage/v1/object/public/images/uploads/1774262776660-iawqg9.webp
 imageAlt: API Meublés 2026 — transmission données Airbnb communes France
 metaTitle: "API Meublés 2026 : Ce Que Tout Loueur Airbnb Doit Savoir"
 metaDescription: L'API Meublés surveille vos nuitées, votre numéro
