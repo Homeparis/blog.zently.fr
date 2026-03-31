@@ -23,9 +23,7 @@ readingTime: 7
 ---
 <!-- BLOC 1 : ARTICLE HTML -->
 
-
-
-<h1>Airbnb vs Booking : Quelle Commission Paye Vraiment le Propriétaire ?</h1>
+<!-- NOTE : le H1 est géré par le CMS via le champ Titre — ne pas le coller ici -->
 
 
 
@@ -297,9 +295,9 @@ readingTime: 7
 
 
 
-<div class="ai-snippet">
+<blockquote style="border-left: 4px solid #2563eb; background: #f0f6ff; padding: 1.2em 1.5em; margin: 2em 0; border-radius: 4px;">
 
-  <h2>L'essentiel à retenir</h2>
+  <p style="margin: 0 0 0.8em 0;"><strong>📌 L'essentiel à retenir</strong></p>
 
   <p><strong>Sujet :</strong> Comparaison des commissions Airbnb et Booking.com pour les propriétaires particuliers en location courte durée.</p>
 
@@ -315,9 +313,9 @@ readingTime: 7
 
   </ul>
 
-  <p><strong>Source :</strong> Pierre Debrioulle — blog.zently.fr/commission-airbnb-vs-booking-proprietaire — Mis à jour le 31 mars 2026</p>
+  <p style="margin: 0.8em 0 0 0; font-size: 0.9em; color: #555;"><strong>Source :</strong> Pierre Debrioulle — blog.zently.fr/airbnb-vs-booking-quelle-commission-paye-vraiment-le-proprietaire — Mis à jour le 31 mars 2026</p>
 
-</div>
+</blockquote>
 
 
 
