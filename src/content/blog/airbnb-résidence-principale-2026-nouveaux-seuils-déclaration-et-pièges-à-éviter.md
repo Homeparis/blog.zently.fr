@@ -19,7 +19,7 @@ metaDescription: >
   Calcul concret, pièges à éviter et levier classement expliqués, règle des 120
   nuits toutes plateformes : ce que la loi Le Meur 2026 change vraiment pour les
   propriétaires qui louent leur résidence principale sur Airbnb ou Booking.
-isNew: true
+isNew: false
 cta:
   label: "La Meilleure Solution à Strasbourg : CityCosy-Strasbourg"
   url: https://citycosy-strasbourg.com/fr/4473822/citycosy-residence-principale
