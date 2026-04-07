@@ -17,7 +17,7 @@ metaTitle: "Micro-Concierge En 2026 : Piloter Son Activité Pour Durer"
 metaDescription: En 2026, les propriétaires exigent des résultats lisibles, pas
   des impressions. Découvrez pourquoi le pilotage est devenu non négociable pour
   tout micro-concierge qui veut rester compétitif et fidéliser son portefeuille.
-isNew: true
+isNew: false
 cta:
   label: "Essayer Zently : "
   url: https://zently.fr/
