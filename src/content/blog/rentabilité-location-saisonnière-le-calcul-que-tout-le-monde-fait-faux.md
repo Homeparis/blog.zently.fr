@@ -16,7 +16,7 @@ metaDescription: "Calculer la rentabilité nette de votre location saisonnière 
   levier oublié de l'assurance de prêt (loi Lemoine). L'analyse d'un opérateur
   Airbnb à Strasbourg depuis 2008."
 isNew: true
-youtubeUrl: https://youtu.be/osdLJNzL5Po?si=NVZ0UkGew1YmMNy_
+youtubeUrl: ""
 cta:
   label: Contactez notre Partenaire
   url: https://homfi.fr/
@@ -94,7 +94,7 @@ Quand on monte un projet locatif, on souscrit l'assurance de prêt proposée par
 La **loi Lemoine**, entrée en vigueur en 2022, est une petite révolution pour les emprunteurs. Elle autorise la résiliation et le changement d'assurance de prêt à tout moment, là où il fallait auparavant respecter des dates anniversaire.
 
 > « Depuis la loi Lemoine, vous pouvez changer d'assurance emprunteur à tout moment, sans frais ni pénalités, et à garanties équivalentes. »
-> — **Thibaut Fauste** (Homfi)
+> — **Thibaut Fauste** (Homfi) - https://youtu.be/osdLJNzL5Po?si=NVZ0UkGew1YmMNy_
 
 Point important pour les investisseurs : ce droit s'applique à **tous les crédits immobiliers**, y compris ceux contractés pour un investissement locatif ou une résidence secondaire — pas seulement pour la résidence principale.
 
