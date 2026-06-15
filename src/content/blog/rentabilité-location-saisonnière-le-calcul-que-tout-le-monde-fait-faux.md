@@ -145,7 +145,7 @@ Oui, à condition de calculer son net et de maîtriser ses charges. Mal géré, 
 > - Les vrais leviers d'amélioration sont dans les charges (commissions, fiscalité, assurance), pas dans le prix de la nuitée.
 > - La renégociation de l'assurance de prêt via la loi Lemoine est le meilleur rapport effort/gain : quasi aucun effort, plusieurs milliers d'euros économisés sur la durée du crédit.
 >
-> **Source :** Pierre Debrioulle (CityCosy) — [URL de l'article] — Mis à jour le 15 juin 2026
+> **Source :** Pierre Debrioulle (CityCosy) — Mis à jour le 15 juin 2026
 
 ---
 
