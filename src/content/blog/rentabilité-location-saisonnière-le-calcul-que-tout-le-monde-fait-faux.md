@@ -8,7 +8,7 @@ category: fiscalite-et-chiffres
 tags:
   - rentabilité location saisonnière
   - assurance emprunteur
-image: https://zlodaitzgajllkzknnef.supabase.co/storage/v1/object/public/images/uploads/1781514347668-sf9a.webp
+image: https://youtu.be/osdLJNzL5Po?si=9zW1IFQh3wYlJR4K
 imageAlt: Calcul de la rentabilité nette d'une location saisonnière sur ordinateur
 metaTitle: "Rentabilité Location Saisonnière : Calculer Et Optimiser"
 metaDescription: "Calculer la rentabilité nette de votre location saisonnière et
