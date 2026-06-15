@@ -16,6 +16,7 @@ metaDescription: "Calculer la rentabilité nette de votre location saisonnière 
   levier oublié de l'assurance de prêt (loi Lemoine). L'analyse d'un opérateur
   Airbnb à Strasbourg depuis 2008."
 isNew: true
+youtubeUrl: https://youtu.be/osdLJNzL5Po?si=NVZ0UkGew1YmMNy_
 cta:
   label: Contactez notre Partenaire
   url: https://homfi.fr/
