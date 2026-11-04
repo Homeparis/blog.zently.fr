@@ -1,23 +1,16 @@
 ---
-title: "Comparer les AMO en copropriété dans le Grand Est : le guide 2026"
-slug: comparer-amo-copropriete-grand-est
-date: 2026-11-04
-description: "Strat Eco, Oktave, Soliha, Urbanis, AMO indépendants… Comment
-  choisir son AMO pour MaPrimeRénov' Copropriété dans le Grand Est : critères,
-  aides 2026, questions à poser."
-category: fiscalite-et-chiffres
-image: https://zlodaitzgajllkzknnef.supabase.co/storage/v1/object/public/images/uploads/1793803299257-r46yge.webp
-image_alt: Immeuble en copropriété à Strasbourg en cours de rénovation
-  énergétique, façade sous échafaudage
-meta_title: "AMO copropriété Grand Est : comment comparer en 2026"
 meta_description: "Oktave, Soliha, Urbanis, AMO indépendants… Comment choisir
   son AMO pour MaPrimeRénov' Copropriété dans le Grand Est : critères, aides
   2026, questions à poser."
-cta:
-  label: Aller voir notre site !
-  url: https://zently.fr/
-nouveau: true
+image_alt: Immeuble en copropriété à Strasbourg en cours de rénovation
+  énergétique, façade sous échafaudage
+title: "Comparer les AMO en copropriété dans le Grand Est : le guide 2026"
+description: "Strat Eco, Oktave, Soliha, Urbanis, AMO indépendants… Comment
+  choisir son AMO pour MaPrimeRénov' Copropriété dans le Grand Est : critères,
+  aides 2026, questions à poser."
 pubDate: 2026-11-04
+category: fiscalite-et-chiffres
+image: https://zlodaitzgajllkzknnef.supabase.co/storage/v1/object/public/images/uploads/1793803299257-r46yge.webp
 imageAlt: Immeuble en copropriété à Strasbourg en cours de rénovation
   énergétique, façade sous échafaudage
 metaTitle: "AMO copropriété Grand Est : comment comparer en 2026"
@@ -25,8 +18,16 @@ metaDescription: "Strat Eco, Oktave, Soliha, Urbanis, AMO indépendants… Comme
   choisir son AMO copropriété pour MaPrimeRénov' Copropriété dans le Grand Est :
   critères, aides 2026, questions à poser."
 isNew: true
+cta:
+  label: Aller voir notre site !
+  url: https://zently.fr/
 author: Pierre de Zently
+slug: comparer-amo-copropriete-grand-est
+youtubeUrl: https://youtu.be/UUnQ34-CljY?si=LrfAqsCDCWynLVKP
+date: 2026-11-04
+nouveau: true
 readingTime: 4
+meta_title: "AMO copropriété Grand Est : comment comparer en 2026"
 ---
 
 Votre conseil syndical veut lancer la rénovation énergétique de l'immeuble et quelqu'un a prononcé le mot qui fâche : **AMO**. Il en faut une pour toucher MaPrimeRénov' Copropriété. Mais laquelle ? Dans le Grand Est, l'offre va du service public régional au bureau d'études indépendant, en passant par les associations historiques et les grands groupes nationaux.
