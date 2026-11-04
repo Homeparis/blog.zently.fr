@@ -83,7 +83,7 @@ En Alsace, et à Strasbourg en particulier, il y a une couche en plus. La Régio
 Oktave est une société d'économie mixte créée par la Région Grand Est et l'ADEME, avec son siège à Strasbourg. D'abord tournée vers les maisons individuelles, elle a ouvert un service copropriétés en 2021, avec des conseillers à Strasbourg, Mulhouse, Nancy, Metz et Reims, en partenariat avec la FNAIM et l'UNIS.
 
 - **Avantages** : couverture régionale, adossement à la Région, lien direct avec les dispositifs régionaux.
-- **Inconvénients** : conditions financières et périmètre variables selon les conventions passées avec chaque collectivité ; les documents publics ne permettent pas de savoir si le service est gratuit aujourd'hui. À demander directement.
+- **Inconvénients** : conditions financières et périmètre variables selon les conventions passées avec chaque collectivité ; les documents publics ne permettent pas de savoir si le service est gratuit aujourd'hui. À demander directement. Il faut noté que Les propriétaires font moins appel à Oktave : « La situation est incertaine » d'après l'article de [rue89strasbourg.com](https://www.rue89strasbourg.com/specialise-renovation-energetique-oktave-victime-maprimerenov-393723).
 
 ### Soliha Alsace : l'association de l'habitat
 
